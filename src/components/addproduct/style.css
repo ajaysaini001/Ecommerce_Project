@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addproduct{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.products{
+    width: 70%;
+    height: auto;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+}
+.product{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+}
+.info{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+    gap: 20px;
+}
+.about{
+    width: 50%;
+
+}
