@@ -1,5 +1,5 @@
 import React from 'react'
-import { CiCirclePlus } from "react-icons/ci";
+// import { CiCirclePlus } from "react-icons/ci";
 import "./style.css";
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
                 <li className="logo">eCommerce</li>
                 <li className="li">Products</li>
                 <li className="li">Add a product </li>
-                <li className='plus'><CiCirclePlus size={30}/></li>
+                <li className='plus'>+</li>
             </ul>
             <div className="right">
                 <span className='name'>John Doe</span>
